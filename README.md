@@ -25,7 +25,7 @@
 * [RCD](https://lucid.app/lucidchart/11620b31-1850-4c35-b01a-b6ccb6480410/edit?invitationId=inv_438b3305-dcaf-41f9-899d-dcfbbdede765)
 ***
 # ***Getting Started***
-## Scroll through the Welcome Page for main examples of cool waifu's, navigate through the nav bar for info about my site, waifu's, contact info, gift market for waifu's.
+## Scroll through the Home Page for main examples of cool waifu's, navigate through the nav bar for info about my site, waifu's, contact info, gift market for waifu's, and applying for a waifu.
 ***
 # Screenshots
 * 
