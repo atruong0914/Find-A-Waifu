@@ -20,9 +20,9 @@
 * Git
 * Heroku
 * [Trello]()
-* [ERD]()
-* [CHD]()
-* [RCD]()
+* [ERD](https://lucid.app/lucidchart/37bcf6e5-95d3-4aac-acfd-22f5032b882f/edit?invitationId=inv_395ccd6e-2cc7-492a-af0d-14a35266e8d0)
+* [CHD](https://lucid.app/lucidchart/1977f380-4dfc-41b2-a5be-ad12972f4683/edit?invitationId=inv_39df2bd3-fa0e-4076-b6d1-e99975d798f7)
+* [RCD](https://lucid.app/lucidchart/11620b31-1850-4c35-b01a-b6ccb6480410/edit?invitationId=inv_438b3305-dcaf-41f9-899d-dcfbbdede765)
 ***
 # ***Getting Started***
 ## Scroll through the Welcome Page for main examples of cool waifu's, navigate through the nav bar for info about my site, waifu's, contact info, gift market for waifu's.
