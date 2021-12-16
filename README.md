@@ -10,12 +10,12 @@
 * HTML
 * CSS
 * JavaScript
-* React.js
+* React
 * MongoDB
 * Mongoose
 * Atlas
 * Express
-* Nodemon
+* Node
 * VS Code
 * Git
 * Heroku
