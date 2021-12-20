@@ -59,6 +59,30 @@ const main = async () => {
             dere: 'Dandere',
             origin: 'Demon Slayer',
             img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn130.picsart.com%2F305531314055211.png%3Fr1024x1024&f=1&nofb=1'
+        },
+
+        {
+            name: 'Umaru Doma',
+            age: 16,
+            dere: 'Darudere',
+            origin: 'Himouto! Umaru-chan',
+            img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fgameideas%2Fimages%2Fb%2Fbd%2FUmaru_Chan.png%2Frevision%2Flatest%2Ftop-crop%2Fwidth%2F480%2Fheight%2F480%3Fcb%3D20170923184704&f=1&nofb=1'
+        },
+
+        {
+            name: 'Mai Sakurajima',
+            age: 17,
+            dere: 'Kuudere',
+            origin: 'Rascal Does Not Dream of Bunny Girl Senpai',
+            img: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.zerochan.net%2FSakurajima.Mai.full.2440556.png&f=1&nofb=1'
+        },
+
+        {
+            name: 'Eru Chitanda',
+            age: 16,
+            dere: 'Deredere',
+            origin: 'The Return of the Time-Honored Classic Lit Club',
+            img: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Forig10.deviantart.net%2Fa8df%2Ff%2F2014%2F318%2F1%2F7%2Fchitanda_eru__render__edited_to_full_version_by_iemelien-d86d5do.png&f=1&nofb=1'
         }
 
     ]
