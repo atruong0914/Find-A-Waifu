@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: flex-start;
+  width: 150px;
+  height: 150px;
+}
+ 
+h1 {
+  color: black;
+}
