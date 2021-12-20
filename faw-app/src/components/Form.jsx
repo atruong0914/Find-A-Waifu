@@ -8,7 +8,7 @@ export default function CreateGift(){
     const [quantity, setQuantity] = useState(0)
     const [img, setImg] = useState('')
     const [submit, setSubmit] = useState(false)
-
+    const [gift, setGift] = useState('')
 
     const handleNameChange =  (e) => {
         setName(e.target.value)
@@ -36,6 +36,8 @@ export default function CreateGift(){
             return
         }
         setSubmit(true)
+        setGift(`${name}`)
+        console.log('test')
         await axios.post('http://localhost:3001/gifts/create', {
             name: name,
             price: price,
@@ -43,10 +45,8 @@ export default function CreateGift(){
             desc: desc,
             img: img
         })
-    }
-    let giftDisplay = undefined
-    if(submit === true){
-        giftDisplay = {name}, {price}
+        
+        
     }
 
     return (
@@ -59,7 +59,7 @@ export default function CreateGift(){
                 <input onChange={handleImgChange} type='text' placeholder='img' value={img} />
                 <button type = 'submit'>Submit</button>
             </form>
-            {giftDisplay}
+            {gift}
         </div>
     )
 }
