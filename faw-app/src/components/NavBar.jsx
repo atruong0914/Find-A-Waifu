@@ -4,14 +4,14 @@ import '../App.css'
 
 export default function NavBar(){
     return (
-        <div className='navbar'>
-            <div className='logo'>
+        <div className='logo'>
                 <img src={'./fawLogo.png'} alt='logo' className = 'logo-img' />
-            </div>
+        <div className='navbar'>
             <Link to ='/' className='link'> Home </Link>
             <Link to ='/waifu' className= 'link'> Waifu </Link>
             <Link to ='/gift' className= 'link'> Gift </Link>
             <Link to = '/about' className= 'link'> About </Link>
+            </div>
         </div>
     )
 }

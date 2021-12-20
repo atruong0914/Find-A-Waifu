@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { createBrowserHistory } from 'history'
 import axios from 'axios'
+import { useParams } from 'react-router-dom'
 
-export default function CreateGift(){
+export default function UpdateGift(){
     const [name, setName] = useState('')
     const [price, setPrice] = useState(0)
     const [desc, setDesc] = useState('')
@@ -10,6 +11,21 @@ export default function CreateGift(){
     const [img, setImg] = useState('')
     const [submit, setSubmit] = useState(false)
     const [gift, setGift] = useState('')
+
+    const { id } = useParams();
+
+    useEffect(async () => {
+        let { data } = await axios.get(`http://localhost:3001/api/gifts/${id}`);
+
+        let gift = data.gift;
+        console.log(data.gift)
+
+        setName(gift.name)
+        setPrice(gift.price)
+        setDesc(gift.desc)
+        setQuantity(gift.quantity)
+        setImg(gift.img)
+    }, [])
 
     const handleNameChange =  (e) => {
         setName(e.target.value)
@@ -38,8 +54,7 @@ export default function CreateGift(){
         }
         setSubmit(true)
         setGift(`${name}, $${price}, ${desc}, ${quantity}, ${img}`)
-        console.log('test')
-        await axios.post('http://localhost:3001/api/gifts/create', {
+        await axios.put(`http://localhost:3001/api/gifts/${id}`, {
             name: name,
             price: price,
             quantity: quantity,
@@ -48,9 +63,10 @@ export default function CreateGift(){
         })
     
         // refreshes
-        const history = createBrowserHistory();
-        history.go(0)
+        //const history = createBrowserHistory();
+        //history.go(0)
     }
+
 
     return (
         <div>

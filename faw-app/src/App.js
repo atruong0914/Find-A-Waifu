@@ -5,6 +5,7 @@ import Waifus from './routes/Waifus'
 import About from './routes/About'
 import Home from './routes/Home'
 import Gifts from './routes/Gifts'
+import UpdateGift from './components/Update'
 
 function App() {
   return (
@@ -12,10 +13,11 @@ function App() {
       <NavBar />
       <main>
         <Switch>
-          <Route exact path = '/' component = {Home} />
-          <Route path = '/about' component = {About} />
-          <Route path = '/waifu' component = {Waifus} />
-          <Route path = '/gift' component = {Gifts} />
+          <Route exact path='/' component = {Home} />
+          <Route exact path='/about' component = {About} />
+          <Route exact path='/waifu' component = {Waifus} />
+          <Route exact path='/gift' component = {Gifts} />
+          <Route exact path='/gift/:id' component={UpdateGift} />
         </Switch>
       </main>
     </div>

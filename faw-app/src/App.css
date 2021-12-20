@@ -7,8 +7,19 @@
   justify-content: flex-start;
   width: 150px;
   height: 150px;
+  margin: 5px;
 }
  
 h1 {
   color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.link {
+  margin: 0px 20px 0px 20px;
 }
