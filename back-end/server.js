@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.use('/api', routes);
 
-app.use('/gift', routes);
+app.use('/gifts', routes);
 
 
 app.listen(PORT, () => console.log(`FAW APP Listening on port: ${PORT}`));

@@ -5,9 +5,9 @@ export default function Waifu({ name, age, dere, origin, img}) {
             <img src={img} alt='waifu' />
             <div className='details'>
                 <h2>{name}</h2>
-                <p>age: {age}</p>
-                <p>dere: {dere}</p>
-                <p>origin: {origin}</p>
+                <p>Age:{age}</p>
+                <p>Dere Type:{dere}</p>
+                <p>Origin:{origin}</p>
             </div>
         </div>
 
