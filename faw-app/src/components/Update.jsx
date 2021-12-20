@@ -53,7 +53,7 @@ export default function UpdateGift(){
             return
         }
         setSubmit(true)
-        setGift(`${name}, $${price}, ${desc}, ${quantity}, ${img}`)
+        setGift(`${name}, $${price}, ${desc}, ${quantity}`)
         await axios.put(`http://localhost:3001/api/gifts/${id}`, {
             name: name,
             price: price,
@@ -63,13 +63,14 @@ export default function UpdateGift(){
         })
     
         // refreshes
-        //const history = createBrowserHistory();
-        //history.go(0)
+        // const history = createBrowserHistory();
+        // history.go(0)
     }
 
 
     return (
         <div>
+            <img src={img} />
             <form onSubmit={handleSubmit}>
                 <input onChange={handleNameChange} type='text' placeholder='gift name' value={name} />
                 <input onChange={handlePriceChange} type='number' placeholder='price name' value={price} />

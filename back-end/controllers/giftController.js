@@ -39,15 +39,15 @@ const updateGift = async (req, res) => {
         const { id } = req.params;
         await Gift.findByIdAndUpdate(id, req.body, { new: true }, (err, gift) => {
             if (err) {
-                return res.status(500).send(err);
+                return res.status(500).send(err)
             }
             if (!gift) {
                 return res.status(500).send('Gift not found');
             }
-            return res.status(200).json(gift);
+            res.status(200).json(gift);
         })
     } catch (err) {
-        return res.status(500).send(err.message);
+        // res.status(500).send(err.message);
     }
 }
 
