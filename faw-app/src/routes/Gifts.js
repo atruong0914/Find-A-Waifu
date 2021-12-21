@@ -10,10 +10,13 @@ import UpdateGift from '../components/Update'
 export default function Gifts(props) {
     const [gifts, setGifts] = useState([]);
 
-    useEffect(async () => {
-        let gifts = await axios.get('http://localhost:3001/api/gifts');
-        setGifts(gifts.data.gifts);
-    }, [])
+    useEffect(() => {
+        async function getGifts() {
+            await axios.get('http://localhost:3001/api/gifts');
+            setGifts(gifts.data.gifts);
+        }
+        getGifts();
+    }, []);
 
     return (
         <div>
