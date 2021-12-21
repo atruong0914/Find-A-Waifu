@@ -12,7 +12,8 @@ export default function Gifts(props) {
 
     useEffect(() => {
         async function getGifts() {
-            let gifts=await axios.get('http://localhost:3001/api/gifts');
+            let gifts = await axios.get('http://localhost:3001/api/gifts');
+            console.log(gifts); // TODO: remove later
             setGifts(gifts.data.gifts);
         }
         getGifts();
@@ -30,6 +31,7 @@ export default function Gifts(props) {
                 desc={gift.desc}
                 quantity={gift.quantity}
                 img={gift.img}
+                likes={gift.likes}
             />
             ))}
 
