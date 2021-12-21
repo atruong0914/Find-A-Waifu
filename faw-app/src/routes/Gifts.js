@@ -3,6 +3,8 @@ import axios from 'axios'
 import '../App.css'
 import Gift from '../components/Gift'
 import CreateGift from '../components/Form'
+import UpdateGift from '../components/Update'
+
 
 
 export default function Gifts(props) {
@@ -20,6 +22,7 @@ export default function Gifts(props) {
             {gifts.map((gift, index) => (
                 <Gift
                 key={index}
+                id={gift._id}
                 name={gift.name}
                 price={gift.price}
                 desc={gift.desc}
