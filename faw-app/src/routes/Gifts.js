@@ -12,7 +12,7 @@ export default function Gifts(props) {
 
     useEffect(() => {
         async function getGifts() {
-            await axios.get('http://localhost:3001/api/gifts');
+            let gifts=await axios.get('http://localhost:3001/api/gifts');
             setGifts(gifts.data.gifts);
         }
         getGifts();
