@@ -1,11 +1,11 @@
 import { useHistory } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import axios from 'axios'
-import Likes from './LikeBtn'
-import Dislikes from './DislikeBtn'
+import Likes from './WaifuLikeBtn'
+import Dislikes from './WaifuDislikeBtn'
 
 
-export default function Waifu({ name, age, dere, origin, img, likes, dislikes, id}) {
+export default function Waifu({ name, age, dere, origin, img, likes, dislikes, id }) {
     let history = useHistory();
 
     const updatePage = (id) => {

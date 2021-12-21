@@ -12,9 +12,9 @@ router.post('/waifus/create', createWaifu)
 
 router.get('/waifus/:id', getWaifuById)
 
-router.get('/waifus/:id', updateWaifu)
+router.put('/waifus/:id', updateWaifu)
 
-router.get('/waifus/:id', deleteWaifu)
+router.delete('/waifus/:id', deleteWaifu)
 
 // gift routes
 router.get('/gifts', getAllGifts)

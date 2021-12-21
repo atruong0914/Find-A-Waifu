@@ -22,11 +22,14 @@ export default function Waifus(props) {
             {waifus.map((waifu, index) => (
                <Waifu
                key={index}
+               id={waifu._id}
                name={waifu.name}
                age={waifu.age}
                dere={waifu.dere}
                origin={waifu.origin}
                img={waifu.img}
+               likes={waifu.likes}
+               dislikes={waifu.dislikes}
             />
             ))}
         <div>
