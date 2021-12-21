@@ -2,13 +2,19 @@
   text-align: center;
 }
 
-.logo-img {
+.logo {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logo-img {
   width: 150px;
   height: 150px;
   margin: 5px;
   border: 1px solid black;
+  border-radius: 100px;
 }
  
 h1 {
@@ -20,7 +26,7 @@ h1 {
   justify-content: flex-end;
   margin: auto;
   border: 1px solid black;
-  
+  border-radius: 5px;
 }
 
 .link {

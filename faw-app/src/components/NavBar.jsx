@@ -5,7 +5,7 @@ import '../App.css'
 export default function NavBar(){
     return (
         <div className='logo'>
-                <img src={'./fawLogo.png'} alt='logo' className = 'logo-img' />
+                <img src={'./fawLogo.jpg'} alt='logo' className = 'logo-img' />
         <div className='navbar'>
             <Link to ='/' className='link'> Home </Link>
             <Link to ='/waifu' className= 'link'> Waifu </Link>
