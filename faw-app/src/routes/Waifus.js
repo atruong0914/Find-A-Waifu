@@ -6,11 +6,14 @@ import Waifu from '../components/Waifu'
 export default function Waifus(props) {
     const [waifus, setWaifus] = useState([]);
 
-    useEffect(async () => {
+    useEffect(() => {
+        async function getWaifus() {
             let waifus = await axios.get('http://localhost:3001/api/waifus');
             setWaifus(waifus.data.waifus);
-            console.log(waifus.data.waifus);
-    }, [])
+            // console.log(waifus.data.waifus);
+        }
+        getWaifus();
+    }, []);
 
     return (
         <div>
