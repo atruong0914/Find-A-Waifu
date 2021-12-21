@@ -37,8 +37,8 @@ const updateGift = async (req, res) => {
     try {
         const { id } = req.params;
 
-        console.log("UPDATING: ", id)
-        console.log(req.body)
+        // console.log("UPDATING: ", id)
+        // console.log(req.body)
 
         await Gift.findByIdAndUpdate(id, req.body, { new: true }, (err, gift) => {
             if (err) {

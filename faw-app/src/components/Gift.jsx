@@ -2,13 +2,12 @@ import { useHistory } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import axios from 'axios'
 import Likes from './LikeBtn'
+import Dislikes from './DislikeBtn'
 
 
-export default function Gift ({id, name, quantity, price, desc, img, likes}){
+export default function Gift ({id, name, quantity, price, desc, img, likes, dislikes}){
     let history = useHistory();
-
-        console.log("LIKES: ", likes)
-
+    
     const updatePage = (id) => {
         history.push(`/gift/${id}`)
     }
@@ -31,6 +30,7 @@ export default function Gift ({id, name, quantity, price, desc, img, likes}){
                 <button onClick={() => { updatePage(id) }}>Modify</button>
                 <button onClick={() => { handleDelete(id)}}>Delete</button>
                 <Likes id={id} likes={likes} />
+                <Dislikes id={id} dislikes={dislikes} />
             </div>
         </div>
     )

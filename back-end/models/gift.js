@@ -7,7 +7,8 @@ const GiftSchema = new Schema(
         price: { type: Number, required: true },
         desc: { type: String, required: true },
         img: { type: String, required: true },
-        likes: {type: Number, required: true, default: 0}
+        likes: {type: Number, required: true, default: 0},
+        dislikes: {type: Number, required: true, default: 0}
     },
     { timestamps: true },
 )

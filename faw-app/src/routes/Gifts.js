@@ -3,7 +3,6 @@ import axios from 'axios'
 import '../App.css'
 import Gift from '../components/Gift'
 import CreateGift from '../components/Form'
-import UpdateGift from '../components/Update'
 
 
 
@@ -32,6 +31,7 @@ export default function Gifts(props) {
                 quantity={gift.quantity}
                 img={gift.img}
                 likes={gift.likes}
+                dislikes={gift.dislikes}
             />
             ))}
 
