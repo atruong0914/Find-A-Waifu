@@ -1,5 +1,5 @@
 const { getAllGifts, getGiftById, createGift, updateGift, deleteGift } = require('./giftController')
-const { getAllWaifus } = require('./waifuController')
+const { getAllWaifus, getWaifuById, createWaifu, updateWaifu, deleteWaifu } = require('./waifuController')
 
 module.exports = {
     getAllGifts,
@@ -7,5 +7,9 @@ module.exports = {
     createGift,
     updateGift,
     deleteGift,
-    getAllWaifus
+    getAllWaifus,
+    getWaifuById,
+    createWaifu,
+    updateWaifu,
+    deleteWaifu
 }

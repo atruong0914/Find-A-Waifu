@@ -54,25 +54,6 @@ const updateGift = async (req, res) => {
     }
 }
 
-/*
-const likeGift = async (req, res) => {
-    try {
-        const { id } = req.params;
-        await Gift.findByIdAndUpdate(id, req.body, { new: true }, (err, gift) => {
-            if (err) {
-                return res.status(500).send(err)
-            }
-            if (!gift) {
-                return res.status(500).send('no');
-            }
-            res.status(200).json(gift);
-        })
-    } catch (err) {
-        // res.status(500).send(err.message);
-    }
-}
-*/
-
 const deleteGift = async (req, res) => {
     try {
         const { id } = req.params;

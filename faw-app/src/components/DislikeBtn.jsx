@@ -5,7 +5,7 @@ export default function Dislikes({ id, dislikes }){
     const [dislikeCounter, setDislikeCounter] = useState(dislikes);
 
     const handleClick = async () => {
-        console.log("UPDATING disLIKES")
+        // console.log("UPDATING disLIKES")
         let data = await axios.put(`http://localhost:3001/api/gifts/${id}`, {
             dislikes: dislikeCounter - 1
         })
