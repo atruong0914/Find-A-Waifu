@@ -61,12 +61,7 @@ export default function UpdateGift(){
             desc: desc,
             img: img           
         })
-    
-        // refreshes
-        // const history = createBrowserHistory();
-        // history.go(0)
     }
-
 
     return (
         <div>

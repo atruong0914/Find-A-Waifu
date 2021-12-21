@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
-import { createBrowserHistory } from 'history'
 import axios from 'axios'
+import { useParams } from 'react-router-dom'
 
-export default function CreateWaifu(){
+export default function UpdateWaifu(){
     const [name, setName] = useState('')
     const [age, setAge] = useState(0)
     const [dere, setDere] = useState('')
@@ -10,6 +9,21 @@ export default function CreateWaifu(){
     const [origin, setOrigin] = useState(false)
     const [waifu, setWaifu] = useState('')
     const [submit, setSubmit] = useState(false)
+    
+    const { id } = useParams();
+
+    useEffect(async () => {
+        let { data } = await axios.get(`http://localhost:3001/api/waifus/${id}`);
+
+        let waifu = data.waifu;
+        console.log(data.waifu)
+
+        setName(waifu.name)
+        setAge(waifu.age)
+        setDere(waifu.dere)
+        setOrigin(waifu.origin)
+        setImg(waifu.img)
+    }, [])
 
     const handleNameChange =  (e) => {
         setName(e.target.value)
@@ -38,18 +52,13 @@ export default function CreateWaifu(){
         }
         setSubmit(true)
         setWaifu(`${name}, ${age}, ${dere}, ${origin}, ${img}`)
-        console.log('test')
-        await axios.post('http://localhost:3001/api/waifus/create', {
+        await axios.put(`http://localhost:3001/api/waifus/${id}`, {
             name: name,
             age: age,
             dere: dere,
             origin: origin,
-            img: img           
+            img: img         
         })
-    
-        // refreshes
-        const history = createBrowserHistory();
-        history.go(0)
     }
 
     return (
