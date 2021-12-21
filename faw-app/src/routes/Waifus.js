@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import '../App.css'
 import Waifu from '../components/Waifu'
+import CreateWaifu from '../components/WaifuForm'
 
 export default function Waifus(props) {
     const [waifus, setWaifus] = useState([]);
@@ -28,6 +29,11 @@ export default function Waifus(props) {
                img={waifu.img}
             />
             ))}
+        <div>
+            <h1>make waifu lol</h1>
+            <CreateWaifu />
         </div>
+        </div>
+
     )
 }
