@@ -7,7 +7,7 @@ export default function CreateWaifu(){
     const [age, setAge] = useState(0)
     const [dere, setDere] = useState('')
     const [img, setImg] = useState('')
-    const [origin, setOrigin] = useState(false)
+    const [origin, setOrigin] = useState('')
     const [waifu, setWaifu] = useState('')
     const [submit, setSubmit] = useState(false)
 

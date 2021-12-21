@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 export default function UpdateWaifu(){
     const [name, setName] = useState('')
@@ -63,6 +64,7 @@ export default function UpdateWaifu(){
 
     return (
         <div>
+            <img src={img} />
             <form onSubmit={handleSubmit}>
                 <input onChange={handleNameChange} type='text' placeholder='waifu name' value={name} />
                 <input onChange={handleAgeChange} type='number' placeholder='age' value={age} />

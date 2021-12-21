@@ -6,6 +6,7 @@ import About from './routes/About'
 import Home from './routes/Home'
 import Gifts from './routes/Gifts'
 import UpdateGift from './components/Update'
+import UpdateWaifu from './components/WaifuUpdate'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/waifu' component = {Waifus} />
           <Route exact path='/gift' component = {Gifts} />
           <Route exact path='/gift/:id' component={UpdateGift} />
+          <Route exact path='/waifu/:id' component={UpdateWaifu} />
         </Switch>
       </main>
     </div>
