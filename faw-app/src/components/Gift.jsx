@@ -7,7 +7,7 @@ import Likes from './LikeBtn'
 export default function Gift ({id, name, quantity, price, desc, img, likes}){
     let history = useHistory();
 
-    console.log("LIKES: ", likes)
+        console.log("LIKES: ", likes)
 
     const updatePage = (id) => {
         history.push(`/gift/${id}`)
@@ -30,7 +30,6 @@ export default function Gift ({id, name, quantity, price, desc, img, likes}){
                 <p>Quantity: {quantity}</p>
                 <button onClick={() => { updatePage(id) }}>Modify</button>
                 <button onClick={() => { handleDelete(id)}}>Delete</button>
-                <h3>{likes}</h3>
                 <Likes id={id} likes={likes} />
             </div>
         </div>
