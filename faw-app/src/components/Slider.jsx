@@ -1,6 +1,5 @@
 import AliceCarousel from 'react-alice-carousel'
 import '../App.css'
-import 'react-alice-carousel/lib/alice-carousel.css';
 import 'react-alice-carousel/lib/alice-carousel.css'
 
 const handleDragStart = (e) => e.preventDefault();
@@ -13,11 +12,11 @@ const items = [
 ]
 
 const Gallery = () => {
-return (
-    <div>
-        <AliceCarousel mouseTracking items={items} animationDuration={750} />
-    </div>
-);
+    return (
+        <div>
+            <AliceCarousel mouseTracking items={items} animationDuration={750} />
+        </div>
+    );
 }
 
 export default Gallery;
