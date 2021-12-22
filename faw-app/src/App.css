@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Indie+Flower&display=swap');
 
 .App {
   text-align: center;
@@ -23,8 +23,8 @@
   border-radius: 100px;
 }
 
-h1 {
-  color: black;
+.welcome {
+  color: rgb(116, 80, 80);
 }
 
 .navbar {
@@ -77,22 +77,46 @@ a:hover {
   padding: 5px;
 }
 
-.space {
-  padding: 10px;
+.intro {
+  display: flex;
+  margin: 30px;
+  min-height: 300px;
+}
+
+.home-intro {
+  border-radius: 5px;
+  height: 30%;
+  border: 1px solid rgb(218, 213, 213);
+  margin-left: 33%;
+  margin-right: 5%;
+  margin-top: 60px;
+  color: rgb(107, 72, 72);
+  font-family: 'indie flower';
+  font-size: 20px
+}
+
+.layout {
+  height: 423.5px;
+  border: 1px solid rgb(202, 185, 185);
 }
 
 .btns-wg {
   display: flex;
+  margin: 100px;
+  margin-left: 10px;
+  width: 10%;
+  height: 10%;
   flex-direction: column;
-  border: 1px solid black;
   box-sizing: border-box;
-  margin-left: 75%;
-  margin-right: 15%;
-  margin-top: -10px;
+}
+
+.btn {
+  max-width: 300px;
 }
 
 .btn-waifu:hover, .btn-gift:hover {
-  background-color: rgb(255, 253, 136);
+  background-color: rgb(255, 172, 188);
+  color: white;
   border: 1px solid rgb(255, 202, 202);
 }
 
@@ -153,7 +177,7 @@ a:hover {
   }
 
   a:hover {
-    color:rgb(255, 230, 0);
+    color:rgb(114, 84, 84);
   }
 
 }
