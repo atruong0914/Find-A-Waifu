@@ -2,9 +2,6 @@
 
 .App {
   text-align: center;
-  background-image: url('https://orig00.deviantart.net/48f0/f/2014/086/5/e/anime___random_anime_girl_2_render__png__by_orihimeyuuka-d7bszp6.png');
-  background-repeat: no-repeat;
-  background-position: left -10px;
 }
 
 .logo {
@@ -58,7 +55,7 @@
 }
 
 a:hover {
-  color:rgb(255, 230, 0);
+  color:rgb(54, 47, 47);
 }
 
 .home {
@@ -98,6 +95,9 @@ a:hover {
 .layout {
   height: 423.5px;
   border: 1px solid rgb(202, 185, 185);
+  background-image: url('https://orig00.deviantart.net/48f0/f/2014/086/5/e/anime___random_anime_girl_2_render__png__by_orihimeyuuka-d7bszp6.png');
+  background-repeat: no-repeat;
+  background-position: left -215px;
 }
 
 .btns-wg {
@@ -177,7 +177,7 @@ a:hover {
   }
 
   a:hover {
-    color:rgb(114, 84, 84);
+    color:rgb(54, 47, 47);
   }
 
 }
