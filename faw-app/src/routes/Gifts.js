@@ -19,8 +19,15 @@ export default function Gifts(props) {
     }, []);
 
     return (
-        <div>
-            <h1>gifts lol</h1>
+        <div className='gift-page'>
+            <div className='gift-intro'>
+            <h1 className='behold'>behold, gifts</h1>
+                <div className='create-gift'>
+                    <h1>create a gift</h1>
+                    <CreateGift />
+                </div>
+            </div>
+        <div className='gifts'>
             {gifts.map((gift, index) => (
                 <Gift
                 key={index}
@@ -34,10 +41,6 @@ export default function Gifts(props) {
                 dislikes={gift.dislikes}
             />
             ))}
-
-        <div>
-            <h1>make gift lol</h1>
-            <CreateGift />
         </div>
         </div>
     )

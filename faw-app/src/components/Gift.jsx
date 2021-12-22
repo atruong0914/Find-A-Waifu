@@ -27,10 +27,12 @@ export default function Gift ({id, name, quantity, price, desc, img, likes, disl
                 <p>Price: {'$' + price}</p>
                 <p>Description: {desc}</p>
                 <p>Quantity: {quantity}</p>
-                <button onClick={() => { updatePage(id) }}>Modify</button>
-                <button onClick={() => { handleDelete(id)}}>Delete</button>
+            <div className='btns-md'>
+                <button className='btn-modify' onClick={() => { updatePage(id) }}>Modify</button>
+                <button className='btn-delete' onClick={() => { handleDelete(id)}}>Delete</button>
                 <Likes id={id} likes={likes} />
                 <Dislikes id={id} dislikes={dislikes} />
+            </div>
             </div>
         </div>
     )

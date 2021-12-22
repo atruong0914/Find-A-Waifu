@@ -17,7 +17,7 @@ export default function Waifus(props) {
     }, []);
 
     return (
-        <div>
+        <div className='waifu-page'>
             <div className='waifu-intro'>
             <h1 className='behold'>behold, waifu's</h1>
                 <div className='create-waifu'>

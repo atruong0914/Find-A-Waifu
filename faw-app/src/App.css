@@ -92,7 +92,7 @@ button {
   font-size: 20px
 }
 
-.waifu-intro {
+.waifu-intro, .gift-intro {
   border-radius: 5px;
   width: 100vw;
   height: 300px;
@@ -102,12 +102,22 @@ button {
   font-size: 20px;
   height: 423.5px;
   border: 1px solid rgb(202, 185, 185);
+}
+
+.waifu-intro {
   background-image: url('https://www.kindpng.com/picc/m/17-178932_anime-girl-free-desktop-background-copy-transparent-background.png');
   background-repeat: no-repeat;
   background-position: left -95px bottom -650px;
   background-color: rgb(247,247,247);
 }
 
+.gift-intro {
+  background-image: url('https://wallpapercave.com/wp/wp5250768.jpg');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: left -75px;
+  background-color: rgb(255, 255, 255);
+}
 .behold {
   padding: 85px;
 }
@@ -140,7 +150,7 @@ button:hover {
   border: 1px solid rgb(255, 202, 202);
 }
 
-.create-waifu {
+.create-waifu, .create-gift {
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -152,7 +162,7 @@ button:hover {
   background-color: white;
 }
 
-.waifu {
+.waifu, .gift {
   border: 1px solid rgb(207, 186, 186);
   border-radius: 10px;
   width: 100%;
@@ -161,11 +171,17 @@ button:hover {
   margin-left: 25%;
   margin-bottom: 10px;
   margin-top: 10px;
+  background-color: rgb(255, 255, 255)
 }
 
-.waifus {
+.waifus, .gifts {
   width: 70%;
 }
+
+.waifu-page, .gift-page {
+  background-image: url('https://www.pikpng.com/pngl/b/158-1584221_watercolor-cherry-blossom-watercolor-wallpaper-desktop-clipart.png');
+}
+
 
 img {
   width: 30%;
@@ -176,6 +192,7 @@ img {
   display: flex;
   flex-direction: column;
   font-family: 'comfortaa';
+  background-color: rgb(255, 255, 255);
 }
 
 
