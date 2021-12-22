@@ -2,6 +2,9 @@
 
 .App {
   text-align: center;
+  background-image: url('https://orig00.deviantart.net/48f0/f/2014/086/5/e/anime___random_anime_girl_2_render__png__by_orihimeyuuka-d7bszp6.png');
+  background-repeat: no-repeat;
+  background-position: left -10px;
 }
 
 .logo {
@@ -64,6 +67,34 @@ a:hover {
   justify-content: center;
 }
 
+.btn-waifu, .btn-gift {
+  background-color: rgb(252, 213, 213);
+  font-family: 'comfortaa';
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+}
+
+.space {
+  padding: 10px;
+}
+
+.btns-wg {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-left: 75%;
+  margin-right: 15%;
+  margin-top: -10px;
+}
+
+.btn-waifu:hover, .btn-gift:hover {
+  background-color: rgb(255, 253, 136);
+  border: 1px solid rgb(255, 202, 202);
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -124,4 +155,6 @@ a:hover {
   a:hover {
     color:rgb(255, 230, 0);
   }
+
 }
+
