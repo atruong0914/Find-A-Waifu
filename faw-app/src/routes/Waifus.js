@@ -18,11 +18,13 @@ export default function Waifus(props) {
 
     return (
         <div>
-            <h1>behold, waifu's</h1>
+            <div className='waifu-intro'>
+            <h1 className='behold'>behold, waifu's</h1>
                 <div className='create-waifu'>
                     <h1>create a waifu</h1>
                     <CreateWaifu />
                 </div>
+            </div>
         <div className='waifus'>
             {waifus.map((waifu, index) => (
                <Waifu
