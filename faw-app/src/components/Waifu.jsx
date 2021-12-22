@@ -27,10 +27,12 @@ export default function Waifu({ name, age, dere, origin, img, likes, dislikes, i
                 <p>Age: {age}</p>
                 <p>Dere Type: {dere}</p>
                 <p>Origin: {origin}</p>
-                <button onClick={() => { updatePage(id) }}>Modify</button>
-                <button onClick={() => { handleDelete(id) }}>Delete</button>
+            <div className='btns-md'>
+                <button className='btn-modify' onClick={() => { updatePage(id) }}>Modify</button>
+                <button className='btn-delete' onClick={() => { handleDelete(id) }}>Delete</button>
                 <Likes id={id} likes={likes} />
                 <Dislikes id={id} dislikes={dislikes} />
+            </div>
             </div>
         </div>
 

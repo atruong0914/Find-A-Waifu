@@ -18,7 +18,12 @@ export default function Waifus(props) {
 
     return (
         <div>
-            <h1>waifus lol</h1>
+            <h1>behold, waifu's</h1>
+                <div className='create-waifu'>
+                    <h1>create a waifu</h1>
+                    <CreateWaifu />
+                </div>
+        <div className='waifus'>
             {waifus.map((waifu, index) => (
                <Waifu
                key={index}
@@ -32,9 +37,6 @@ export default function Waifus(props) {
                dislikes={waifu.dislikes}
             />
             ))}
-        <div>
-            <h1>make waifu lol</h1>
-            <CreateWaifu />
         </div>
         </div>
 
