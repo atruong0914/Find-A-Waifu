@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import '../node_modules/react-alice-carousel/lib/alice-carousel.css';
 
 .App {
   text-align: center;
@@ -13,8 +14,8 @@
 }
 
 .logo-img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin: 5px;
   border: 1px solid rgb(247, 180, 208);
   border-radius: 100px;
@@ -42,7 +43,7 @@ h1 {
 }
 
 .link {
-  margin-right: 100px;
+  margin-right: 70px;
   font-size: 35px;
   text-decoration: none;
   font-family: 'comfortaa';
@@ -51,11 +52,17 @@ h1 {
 }
 
 .link:last-child {
-  margin-left: 900px;
+  margin-left: 920px;
 }
 
 a:hover {
   color:rgb(255, 230, 0);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
