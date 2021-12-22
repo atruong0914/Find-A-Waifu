@@ -6,29 +6,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
 }
 
-
 .logo-img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin: 5px;
-  border: 1px solid black;
+  border: 1px solid #000;
   border-radius: 100px;
 }
  
 h1 {
-  color: black;
+  color: #000;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-end;
   margin: auto;
-  border: 1px solid black;
   border-radius: 5px;
+  flex-grow: 1;
 }
 
 .link {
-  margin: 0px 130px 0px 20px;
+  margin-right: 60px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.link:last-child {
+  margin-right: 0px;
 }
