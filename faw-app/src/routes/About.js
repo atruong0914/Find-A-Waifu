@@ -14,6 +14,9 @@ export default function About(props) {
                 actually, here are just some links to my socials.
             </h3>
         <div className='socials'>
+            <a href='https://github.com/atruong0914'>
+                <img src='./github.png' className='icon' />
+            </a>
             <a href='https://www.instagram.com/ign.xaster/'>
                 <img src='./ig.png' className='icon' />
             </a>
