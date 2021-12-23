@@ -1,10 +1,11 @@
-# Find-A-Waifu
+# <center> Find-A-Waifu </center>
+# ![header bride](https://i.imgur.com/2lrcxqE.png)
 ## Date: 12/16/2021
 ### By: Annika Truong
 #### [Instagram](https://www.instagram.com/ign.xaster/) [LinkedIn](https://www.linkedin.com/in/annikatruong/)
 ***
 # ***Description*** 
-## ***This site allows you to choose the perfect waifu.***
+## ***FULL CRUD on waifu's and gifts. Create, read, update, delete: gifts and waifu's.***
 ***
 # ***Technologies Used***
 * HTML
@@ -32,11 +33,13 @@
 
 ***
 # Future Updates
-- [ add user profile ] 
-- [ add api ] 
-- [ add a music player with anime songs ] 
-- [ clean up code ]  
+- [ ] add user profile 
+- [ ] add api 
+- [ ] add a music player with anime songs 
+- [ ] clean up code 
 ***
 # ***Credits***
-* Debugging help and styling ideas from viewers on [Twitch]('https://www.twitch.tv/xasterttv')! Achieved the aesthetic I wanted.
-* 
+* Debugging help and styling ideas from viewers on [Twitch](https://www.twitch.tv/xasterttv)! Achieved the aesthetic I wanted.
+*[w3schools](https://www.w3schools.com/)
+*[mdn](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+*[carousel component](https://github.com/maxmarinich/react-alice-carousel)
