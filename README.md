@@ -13,30 +13,30 @@
 * React
 * MongoDB
 * Mongoose
-* Atlas
 * Express
 * Node
 * VS Code
 * Git
-* Heroku
+* Heroku, not yet deployed
 * [Trello](https://trello.com/b/XsieRd0s/find-a-waifu)
 * [ERD](https://lucid.app/lucidchart/37bcf6e5-95d3-4aac-acfd-22f5032b882f/edit?invitationId=inv_395ccd6e-2cc7-492a-af0d-14a35266e8d0)
 * [CHD](https://lucid.app/lucidchart/1977f380-4dfc-41b2-a5be-ad12972f4683/edit?invitationId=inv_39df2bd3-fa0e-4076-b6d1-e99975d798f7)
 * [RCD](https://lucid.app/lucidchart/11620b31-1850-4c35-b01a-b6ccb6480410/edit?invitationId=inv_438b3305-dcaf-41f9-899d-dcfbbdede765)
 ***
 # ***Getting Started***
-## Scroll through the Home Page for main examples of cool waifu's, navigate through the nav bar for info about my site, waifu's, contact info. Create, update, and delete the gifts in the market for waifu's.
+## Scroll through the Home Page for main examples of the best waifu's, navigate through the nav bar for info about my site, waifu's, and gifts. Create, update, and delete the waifu's and gifts to your liking.
 ***
 # Screenshots
-* 
-* 
+* ![home page]('')
+* ![waifu page]('')
 
 ***
 # Future Updates
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ]  
+- [ add user profile ] 
+- [ add api ] 
+- [ add a music player with anime songs ] 
+- [ clean up code ]  
 ***
 # ***Credits***
-
+* Debugging help and styling ideas from viewers on [Twitch]('https://www.twitch.tv/xasterttv')! Achieved the aesthetic I wanted.
+* 
