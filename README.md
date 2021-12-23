@@ -27,8 +27,8 @@
 ## Scroll through the Home Page for main examples of the best waifu's, navigate through the nav bar for info about my site, waifu's, and gifts. Create, update, and delete the waifu's and gifts to your liking.
 ***
 # Screenshots
-* ![home page]('')
-* ![waifu page]('')
+* ![home page]('https://raw.githubusercontent.com/atruong0914/Find-A-Waifu/main/faw-app/public/home.png')
+* ![waifu page]('https://raw.githubusercontent.com/atruong0914/Find-A-Waifu/main/faw-app/public/waifupg.png')
 
 ***
 # Future Updates
