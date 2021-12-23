@@ -92,11 +92,10 @@ button {
   font-size: 20px
 }
 
-.waifu-intro, .gift-intro {
+.waifu-intro, .gift-intro, .about-intro {
   border-radius: 5px;
   width: 100vw;
   height: 300px;
-  border: 1px solid rgb(218, 213, 213);
   color: rgb(107, 72, 72);
   font-family: 'indie flower';
   font-size: 20px;
@@ -118,8 +117,38 @@ button {
   background-position: left -75px;
   background-color: rgb(255, 255, 255);
 }
+
+.about-intro {
+  background-image: url('/public/me.png');
+  background-repeat: no-repeat;
+  background-size: 22%;
+  background-position: left 1500px top 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.about-words {
+  width: 40%;
+  margin-right: 560px;
+}
+
+.uwu {
+  width: 20%;
+  margin-right: auto;
+}
+
 .behold {
   padding: 85px;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.icon {
+  width: 10%;
+  height: 50%;
 }
 
 .layout {
@@ -178,7 +207,7 @@ button:hover {
   width: 70%;
 }
 
-.waifu-page, .gift-page {
+.waifu-page, .gift-page, .about-page {
   background-image: url('https://www.pikpng.com/pngl/b/158-1584221_watercolor-cherry-blossom-watercolor-wallpaper-desktop-clipart.png');
 }
 
